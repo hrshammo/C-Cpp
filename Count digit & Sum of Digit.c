@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/*
+   Write a program that will count number of digits, as well as, sum up each digit for a given integer N.
+   Sample Input:
+   Enter a number: 125
+   Sample output:
+   The number has 3 digits which sum to 8
+*/
 int main() {
  int n;
  int sum=0;
@@ -21,6 +27,6 @@ int main() {
    
  
    
-   printf("    Number of digits: %d    \n", count);
-    printf("    Sum of digits :  %d    ",sum);
+    printf("The number has %d",count);
+    printf(" digits which sum to %d",sum);
  }
